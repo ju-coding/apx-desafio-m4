@@ -1,0 +1,53 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* -------------------- MAIN --------------------- */
+.main{
+    background-color: black;
+    min-height: 360px;
+}
+.main__title{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+}
+@media (min-width: 960px){
+    .main{
+        height: 616px;
+        background-position: center;
+        background-image: url('//i.picsum.photos/id/848/1920/616.jpg?hmac=rIELGPIYkaakOi6xi2kSVbZ3bMxGrajTKqIfLCA1sFc')
+    }
+}
+/* -------------------- SERVICES --------------------- */
+#service-card .card__title, #service-card .card__text{
+    color: white
+}
+.services{
+    background-color: black;
+    padding: 30px
+}
+.services__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+}
+@media (min-width: 960px){
+    #service-card .card__title, #service-card .card__text{
+        color: inherit
+    }
+    .services{
+        background-color: white;
+    }
+    .services__title{
+        font-size: 38px;
+    }
+    .services__box{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}

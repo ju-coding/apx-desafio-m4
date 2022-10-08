@@ -1,0 +1,107 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* -------------------- MAIN --------------------- */
+.main{
+    height: 616px;
+    background-position: center;
+    background-image: url('//i.picsum.photos/id/180/1920/616.jpg?hmac=qf0Vfl6LBPS64VVi-gO1lCLavaVDFhHJE-JIxpkM_Tw')
+}
+.main__title{
+    font-family: 'Open Sans', sans-serif;
+    color: white;
+    text-align: center;
+    font-size: 48px;
+    margin-top: 100px;
+}
+/* -------------------- ABOUT ME --------------------- */
+.about-me{
+    background-color: black;
+    min-height: 538px;
+    padding: 30px
+}
+.about-me__box{
+    max-width: 500px;
+    margin: 0 auto;
+}
+.about-me__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+.about-me__text{
+    font-family: 'Poppins', sans-serif;
+    color:white;
+    font-weight: 400;
+    font-size: 16px;
+}
+.about-me__img{
+    display: none;
+}
+@media (min-width: 960px){
+    .about-me{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+    .about-me__box{
+        max-width: 600px;
+        margin: 0;
+    }
+    .about-me__title{
+        text-align: left;
+        font-size: 38px;
+    }
+    .about-me__img{
+        display: inherit;
+    }
+}
+/* -------------------- SERVICES --------------------- */
+.services{
+    padding: 30px
+}
+.services__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    font-size: 32px;
+}
+@media (min-width: 960px){
+    .services__title{
+        font-size: 38px;
+    }
+    .services__box{
+        display:flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+}
+/* -------------------- CONTACT --------------------- */
+.contact{
+    background-color: black;
+    min-height: 538px;
+}
+.contact__box{
+    padding: 30px;
+}
+.contact__title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+    font-size: 32px;
+}
+@media (min-width: 960px){
+    .contact__box{
+        display: flex;
+        justify-content: center;
+        gap: 80px;
+    }
+    .contact__title{
+        text-align: right;
+        font-size: 38px;
+    }
+}
